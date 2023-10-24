@@ -1,13 +1,11 @@
-//変数の宣言・値の代入
-let userName;
-userName='BMI(体格指数)=';
+//体重(kg)の変数宣言と値の代入
+let weight=68;
 
-//変数の宣言・値の代入
-let 体重=68;
+//身長(ｍ)の変数宣言と値の代入
+let height=1.7;
 
-//変数の宣言・値の代入
-let 身長=1.7;
+//BMI計算
+let BMI=weight/(height*height);
 
-//コンソールへの出力
-console.log(userName);
-console.log(体重/(身長*身長));
+//コンソールに出力
+console.log('BMI='+BMI);
